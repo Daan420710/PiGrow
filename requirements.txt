@@ -1,0 +1,12 @@
+# Core dependencies for PiGrow project
+gpiozero
+RPi.GPIO
+Flask
+paho-mqtt
+python-dotenv
+schedule
+numpy
+pandas
+matplotlib
+smbus2
+adafruit-circuitpython-bme280
