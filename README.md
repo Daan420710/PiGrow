@@ -5,6 +5,23 @@
 ## Over dit project
 
 PiGrow is een open source project dat een Raspberry Pi gebruikt om je plantgroei te automatiseren en monitoren. Met sensoren meet je bodemvocht, temperatuur, lichtintensiteit en meer. Actuatoren zoals waterpompen en LED-verlichting worden aangestuurd om een ideale omgeving te creëren. Gebruik de bijgeleverde scripts om data te loggen, grafieken te genereren of een web-UI/API te draaien.
+## Belangrijkste functionaliteiten
+
+PiGrow combineert de kracht van Mycodo om flexibele automatisering en monitoring te bieden. Enkele kernfunctionaliteiten:
+
+- **Invoer (Inputs)**: Meet sensoren, GPIO-pinstaten, analoog-naar-digitaal converters en meer, of maak je eigen Custom Inputs. Zie de lijst met ondersteunde inputs.
+- **Uitvoer (Outputs)**: Schakel GPIO-pinnen hoog/laag, genereer PWM-signalen, voer shell-scripts of Python-code uit en meer. Je kunt ook Custom Outputs definiëren. Zie de ondersteunde outputs.
+- **Functies (Functions)**: Koppel inputs en outputs op interessante manieren, zoals PID-regeling, Conditionals en Triggers, of schrijf je eigen functies. Zie de ondersteunde functies.
+- **Webinterface**: Beveiligde webinterface om PiGrow/Mycodo via je browser te bedienen vanaf je lokale netwerk of vanaf het internet, met lichte en donkere thema’s.
+- **Dashboards**: Configurabele dashboards met widgets, waaronder live en historische grafieken, meters, uitvoerstatussen, metingen en meer. Maak desgewenst eigen widgets.
+- **Meldingen (Alerts)**: Stuur e-mails wanneer metingen vooraf ingestelde drempels overschrijden zodat je onmiddellijk kunt ingrijpen.
+- **Setpoint-tracking**: Pas PID-setpoints automatisch aan in de tijd, bijvoorbeeld voor terraria, reflow-ovens, sous-vide koken en andere toepassingen.
+- **Notities**: Registreer gebeurtenissen, waarschuwingen en andere belangrijke momenten, en toon deze als overlay op grafieken.
+- **Camera’s**: Ondersteunt live-streaming op afstand, beeldopnamen en time-lapse fotografie.
+- **Energiegebruik**: Bereken en volg het energieverbruik en de kosten over tijd.
+- **Upgrade-systeem**: Eenvoudig upgraden naar de nieuwste release of terugzetten naar een backup.
+- **Vertalingen**: Meertalige interface dankzij beschikbare vertalingen.
+
 
 Deze README is een voorstel. Vervang de ✏️-aanduidingen door jouw specifieke hardware, pinconfiguratie en instellingen.
 
