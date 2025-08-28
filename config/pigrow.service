@@ -1,0 +1,14 @@
+[Unit]
+Description=PiGrow greenhouse control service
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/PiGrow
+ExecStart=/usr/bin/python3 /home/pi/PiGrow/src/main.py
+EnvironmentFile=/home/pi/PiGrow/.env
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
