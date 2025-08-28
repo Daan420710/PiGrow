@@ -12,7 +12,7 @@ PiGrow combineert de kracht van Mycodo om flexibele automatisering en monitoring
 - **Invoer (Inputs)**: Meet sensoren, GPIO-pinstaten, analoog-naar-digitaal converters en meer, of maak je eigen Custom Inputs. Zie de lijst met ondersteunde inputs.
 - **Uitvoer (Outputs)**: Schakel GPIO-pinnen hoog/laag, genereer PWM-signalen, voer shell-scripts of Python-code uit en meer. Je kunt ook Custom Outputs definiëren. Zie de ondersteunde outputs.
 - **Functies (Functions)**: Koppel inputs en outputs op interessante manieren, zoals PID-regeling, Conditionals en Triggers, of schrijf je eigen functies. Zie de ondersteunde functies.
-- **Webinterface**: Beveiligde webinterface om PiGrow/Mycodo via je browser te bedienen vanaf je lokale netwerk of vanaf het internet, met lichte en donkere thema’s.
+- **Webinterface**: Beveiligde webinterface om PiGrow via je browser te bedienen vanaf je lokale netwerk of vanaf het internet, met lichte en donkere thema’s.
 - **Dashboards**: Configurabele dashboards met widgets, waaronder live en historische grafieken, meters, uitvoerstatussen, metingen en meer. Maak desgewenst eigen widgets.
 - **Meldingen (Alerts)**: Stuur e-mails wanneer metingen vooraf ingestelde drempels overschrijden zodat je onmiddellijk kunt ingrijpen.
 - **Setpoint-tracking**: Pas PID-setpoints automatisch aan in de tijd, bijvoorbeeld voor terraria, reflow-ovens, sous-vide koken en andere toepassingen.
@@ -30,8 +30,8 @@ Deze README is een voorstel. Vervang de ✏️-aanduidingen door jouw specifieke
 - Raspberry Pi 4 of vergelijkbaar
 - Python 3.10+
 - Raspbian OS of een andere Linux-distributie
-- Sensoren: ✏️ bijv. DHT22 (temperatuur/vocht), lichtsensor, bodemvochtsensor
-- Actuatoren: ✏️ bijv. 12V waterpomp, LED-strip, relaismodule
+- Sensoren: ✏️ bijv. SCD30 (temperatuur/vocht/co2), lichtsensor, bodemvochtsensor
+- Actuatoren: ✏️ bijv.  relaismodule voor licht, pomp, verwarmen, koelen, ontvochtigen, bevochtigen
 - Bibliotheken: zie `requirements.txt` (na installatie)
 - Toegang tot internet voor tijdsynchronisatie en optionele web-UI
 
